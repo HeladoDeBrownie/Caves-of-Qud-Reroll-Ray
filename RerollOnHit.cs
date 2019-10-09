@@ -5,18 +5,20 @@ namespace XRL.World.Parts {
             case "ProjectileHit":
                 GameObject attacker = E.GetGameObjectParameter ("Attacker");
                 GameObject defender = E.GetGameObjectParameter ("Defender");
-                GameObject apparentTarget = E.GetGameObjectParameter ("ApparentTarget");
-                GameObject doppelganger = defender.GetBlueprint ().createOne ();
-                Cell cell = defender.CurrentCell;
-                defender.GetAngryAt (attacker);
 
                 if (defender.IsPlayer ()) {
+                    GameObject apparentTarget = E.GetGameObjectParameter ("ApparentTarget");
                     defender.FireEvent (Event.New ("Die", "Killer", attacker, "Reason", "You were replaced.", "Accidental", defender != apparentTarget)); }
                 else {
-                    defender.Destroy (); }
+                    GameObject doppelganger = defender.GetBlueprint ().createOne ();
+                    defender.GetAngryAt (attacker);
+                    defender.ReplaceWith (doppelganger);
 
-                cell.AddObject (doppelganger);
-                AddPlayerMessage (doppelganger.The + doppelganger.DisplayName + " looks good as new!");
+                    if (defender.HasPart ("Brain")) {
+                        XRL.Core.XRLCore.Core.Game.ActionManager.AddActiveObject (doppelganger); }
+
+                    AddPlayerMessage (doppelganger.The + doppelganger.DisplayName + " looks good as new!"); }
+
                 break;
             default:
                 return base.FireEvent (E); }
