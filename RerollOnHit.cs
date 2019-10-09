@@ -8,6 +8,7 @@ namespace XRL.World.Parts {
                 GameObject apparentTarget = E.GetGameObjectParameter ("ApparentTarget");
                 GameObject doppelganger = defender.GetBlueprint ().createOne ();
                 Cell cell = defender.CurrentCell;
+                defender.GetAngryAt (attacker);
 
                 if (defender.IsPlayer ()) {
                     defender.FireEvent (Event.New ("Die", "Killer", attacker, "Reason", "You were replaced.", "Accidental", defender != apparentTarget)); }
