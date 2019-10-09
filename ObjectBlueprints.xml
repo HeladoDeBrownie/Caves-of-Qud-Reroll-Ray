@@ -1,0 +1,22 @@
+<objects>
+    <object Name="helado_Reroll Ray" Inherits="BasePistol">
+        <part Name="Render" DisplayName="&amp;Kreconjugation pistol" ColorString="&amp;K" RenderString=")"/>
+        <part Name="MissileWeapon" Skill="Pistol" AmmoChar="&amp;K " ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="0"/>
+        <part Name="Commerce" Value="1200"/>
+        <part Name="EnergyAmmoLoader" ChargeUse="10000" ProjectileObject="helado_Projectile Reroll"/>
+        <part Name="EnergyCellSocket" SlotType="EnergyCell"/>
+        <part Name="Description" Short="TODO"/>
+        <part Name="Examiner" AlternateDisplayName="pistol" Complexity="8"/>
+        <part Name="TinkerItem" Bits="0005" CanDisassemble="true" CanBuild="true" CanRepair="true"/>
+        <part Name="Metal"/>
+        <tag Name="Mods" Value="MissileWeaponMods,FirearmMods,CommonMods,PistolMods,ElectronicsMods"/>
+        <tag Name="Tier" Value="8"/>
+    </object>
+    <object Name="helado_Projectile Reroll" Inherits="TemporaryProjectile">
+        <part Name="Render" DisplayName="&amp;Kreconjugation projectile" />
+        <part Name="Projectile" BaseDamage="0" ColorString="&amp;K" />
+        <part Name="Physics" IsReal="false" />
+        <part Name="helado_RerollOnHit"/>
+        <xtagGrammar Proper="true" />
+    </object>
+</objects>
