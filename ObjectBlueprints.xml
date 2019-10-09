@@ -17,6 +17,5 @@
         <part Name="Projectile" BaseDamage="0" ColorString="&amp;K" />
         <part Name="Physics" IsReal="false" />
         <part Name="helado_RerollOnHit"/>
-        <xtagGrammar Proper="true" />
     </object>
 </objects>
