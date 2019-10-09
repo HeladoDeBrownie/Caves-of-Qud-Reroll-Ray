@@ -3,7 +3,7 @@
         <part Name="Render" DisplayName="&amp;Kreconjugation pistol" ColorString="&amp;K" RenderString=")"/>
         <part Name="MissileWeapon" Skill="Pistol" AmmoChar="&amp;K " ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="0"/>
         <part Name="Commerce" Value="1200"/>
-        <part Name="EnergyAmmoLoader" ChargeUse="10000" ProjectileObject="helado_Projectile Reroll"/>
+        <part Name="EnergyAmmoLoader" ChargeUse="20000" ProjectileObject="helado_Projectile Reroll"/>
         <part Name="EnergyCellSocket" SlotType="EnergyCell"/>
         <part Name="Description" Short="TODO"/>
         <part Name="Examiner" AlternateDisplayName="pistol" Complexity="8"/>
