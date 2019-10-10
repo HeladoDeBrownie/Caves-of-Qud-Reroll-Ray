@@ -1,0 +1,8 @@
+- The reconjugation pistol is a tier 7 or 8 drop with the same rarity as the nullray pistol.
+- The pistol takes a sizeable chunk of energy to fire one shot. A chem cell, even a high-capacity one, is not suitable. A biodynamic cell or an antimatter cell will give the most mileage.
+- Much like with other missile weapons, attacking with the pistol is a hostile action. Your victim's compatriots, if not the victim themself, will not be happy with you.
+- Hitting someone (or something) with the pistol's projectile destroys them along with anything they may be carrying, and spawns a new one of whatever kind they were. It's possible to irrecoverably lose items this way.
+- Merchants can be rerolled to instantly get a new merchant with new inventory. It's possible to merchantscum this way, and I'm not going to stop you if you want to do that.
+- Rerolling Sheba will turn her into a regular one of whatever species she spawned as, leaving the world with no Sheba.
+- Getting hit yourself will instantly end your run. The death message will be `You were replaced.`.
+- The pistol can be wished for with `helado_Reroll Ray`.
