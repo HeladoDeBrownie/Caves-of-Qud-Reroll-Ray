@@ -1,6 +1,6 @@
 <objects>
     <object Name="helado_Reroll Ray" Inherits="BasePistol">
-        <part Name="Render" DisplayName="&amp;Kreconjugation pistol" ColorString="&amp;K" RenderString=")"/>
+        <part Name="Render" DisplayName="&amp;Rr&amp;Me&amp;Rc&amp;Mo&amp;Rn&amp;Mj&amp;Ru&amp;Mg&amp;Ra&amp;Mt&amp;Ri&amp;Mo&amp;Rn pistol" ColorString="&amp;K" RenderString=")"/>
         <part Name="MissileWeapon" Skill="Pistol" AmmoChar="&amp;K " ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="0"/>
         <part Name="Commerce" Value="1200"/>
         <part Name="EnergyAmmoLoader" ChargeUse="20000" ProjectileObject="helado_Projectile Reroll"/>
