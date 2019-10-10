@@ -3,7 +3,7 @@
         <part Name="Render" DisplayName="&amp;Rr&amp;Me&amp;Rc&amp;Mo&amp;Rn&amp;Mj&amp;Ru&amp;Mg&amp;Ra&amp;Mt&amp;Ri&amp;Mo&amp;Rn pistol" ColorString="&amp;K" RenderString=")"/>
         <part Name="MissileWeapon" Skill="Pistol" AmmoChar="&amp;K " ShotsPerAction="1" AmmoPerAction="1" ShotsPerAnimation="1" WeaponAccuracy="0"/>
         <part Name="Commerce" Value="1200"/>
-        <part Name="EnergyAmmoLoader" ChargeUse="20000" ProjectileObject="helado_Projectile Reroll"/>
+        <part Name="EnergyAmmoLoader" ChargeUse="30000" ProjectileObject="helado_Projectile Reroll"/>
         <part Name="EnergyCellSocket" SlotType="EnergyCell"/>
         <part Name="Description" Short="Burnished orbs and glowing cables almost conceal the body of this pistol. Etched into the handle are the words 'Redo From Start'."/>
         <part Name="Examiner" AlternateDisplayName="pistol" Complexity="8"/>
