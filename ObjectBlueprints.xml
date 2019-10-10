@@ -7,7 +7,7 @@
         <part Name="EnergyCellSocket" SlotType="EnergyCell"/>
         <part Name="Description" Short="Burnished orbs and glowing cables almost conceal the body of this pistol. Etched into the handle are the words 'Redo From Start'."/>
         <part Name="Examiner" AlternateDisplayName="pistol" Complexity="8"/>
-        <part Name="TinkerItem" Bits="0005" CanDisassemble="true" CanBuild="true" CanRepair="true"/>
+        <part Name="TinkerItem" Bits="0005588" CanDisassemble="true" CanBuild="true" CanRepair="true"/>
         <part Name="Metal"/>
         <tag Name="Mods" Value="MissileWeaponMods,FirearmMods,CommonMods,PistolMods,ElectronicsMods"/>
         <tag Name="Tier" Value="8"/>
