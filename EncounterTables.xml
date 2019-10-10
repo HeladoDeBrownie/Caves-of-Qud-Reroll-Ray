@@ -1,0 +1,12 @@
+<encountertables>
+    <encountertable Name="Missile 7" Load="Merge">
+        <objects>
+            <object Chance="5" Number="1d1" Blueprint="helado_Reroll Ray"/>
+        </objects>
+    </encountertable>
+    <encountertable Name="Missile 8" Load="Merge">
+        <objects>
+            <object Chance="5" Number="1d1" Blueprint="helado_Reroll Ray"/>
+        </objects>
+    </encountertable>
+</encountertables>
