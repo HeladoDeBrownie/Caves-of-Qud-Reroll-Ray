@@ -13,6 +13,7 @@ namespace XRL.World.Parts {
                     GameObject doppelganger = defender.GetBlueprint ().createOne ();
                     defender.GetAngryAt (attacker);
                     defender.ReplaceWith (doppelganger);
+                    doppelganger.TeleportSwirl (null, "&M");
 
                     if (defender.HasPart ("Brain")) {
                         XRL.Core.XRLCore.Core.Game.ActionManager.AddActiveObject (doppelganger); }
